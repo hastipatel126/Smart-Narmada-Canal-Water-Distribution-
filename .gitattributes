@@ -1,0 +1,45 @@
+# Normalize line endings for cross-platform compatibility
+* text=auto
+
+# Dart/Flutter source files
+*.dart text eol=lf
+
+# Config files
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+*.kt text eol=lf
+*.java text eol=lf
+
+# Swift/Objective-C
+*.swift text eol=lf
+*.m text eol=lf
+*.h text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Windows scripts keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files - no line ending conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.dill binary

@@ -1,17 +1,56 @@
-# narmada_water_monitor
+# Smart Narmada Canal Water Distribution
 
-A new Flutter project.
+A Flutter application for smart monitoring and distribution management of Narmada canal water.
+
+## Features
+
+- Canal flow monitoring and real-time analytics
+- Water distribution scheduling and management
+- Farmer alert system
+- Dispute resolution management
+- Predictive analytics dashboard
+- AI-powered chat assistant
+- Multi-platform support (Android, iOS, Windows, Web, Linux, macOS)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (latest stable)
+- Dart SDK
+- Android Studio / Xcode (for mobile builds)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/hastipatel126/Smart-Narmada-Canal-Water-Distribution-.git
+
+# Navigate to project directory
+cd Smart-Narmada-Canal-Water-Distribution-
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+```
+
+## Project Structure
+
+```
+lib/
+├── agents/          # AI agents (canal flow, dashboard, dispute, distribution, farmer alert)
+├── core/            # Constants, theme, utilities
+├── data/            # Demo data
+├── models/          # Data models
+├── screens/         # UI screens
+├── services/        # App state management
+├── shell/           # App shell
+└── widgets/         # Reusable widgets
+```
+
+## Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
 - [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
